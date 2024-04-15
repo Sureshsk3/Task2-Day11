@@ -1,0 +1,143 @@
+.all-items {
+  background-color: #d2eacb;
+  width: 75%;
+  height: fit-content;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: 12%;
+  margin-top: 35px;
+}
+
+.head-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #515351;
+  color: aliceblue;
+  height: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+div i {
+  font-size: 35px;
+  position: absolute;
+  left: 5%;
+  text-align: center;
+}
+.body-div {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.left-cont {
+  margin: 10%;
+  margin-left: 50px;
+  border-radius: 12px;
+  width: 85%;
+  height: 440px;
+  background-color: #212321;
+}
+.right-cont {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fir-cont {
+  background-color: #212321;
+  width: 70%;
+  height: 45px;
+  border-radius: 7px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  margin-bottom: 55px;
+}
+.sec-cont {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.in-con {
+  background-color: #212321;
+  width: 180px;
+  margin-right: 20px;
+  height: 140px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+.thi-cont {
+  background-color: #212321;
+  width: 600px;
+  height: 140px;
+  border-radius: 7px;
+  margin-top: 23px;
+}
+@media all and (max-width: 1150px) {
+  .all-items {
+    width: 50%;
+    margin: auto;
+    margin-top: 35px;
+    height: 430px;
+  }
+  .left-cont {
+    width: 80%;
+    height: 96%;
+    margin-left: 20px;
+  }
+  .in-con {
+    width: 60px;
+    height: 80px;
+    margin-bottom: 30px;
+  }
+  .thi-cont {
+    width: 80%;
+    height: 70px;
+    margin-top: 0;
+  }
+}
+@media all and (max-width: 700px) {
+  .all-items {
+    width: 50%;
+    position: relative;
+    margin: auto;
+    left: auto;
+    height: 400px;
+    margin-top: 35px;
+  }
+  .head-div {
+    font-size: 15px;
+  }
+  div i {
+    font-size: medium;
+  }
+  .in-con {
+    width: 40px;
+  }
+}
+@media all and (max-width: 500px) {
+  .all-items {
+    width: 50%;
+    position: relative;
+    margin: auto;
+    left: auto;
+    height: 400px;
+    margin-top: 35px;
+  }
+  .left-cont {
+    width: 40px;
+    margin-left: 10%;
+  }
+  .fir-cont {
+    width: 100px;
+  }
+  .thi-cont {
+    width: 80px;
+    margin-right: 15px;
+  }
+
+  .in-con {
+    width: 20px;
+    margin-right: 10px;
+  }
+}
